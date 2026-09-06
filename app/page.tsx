@@ -8,7 +8,7 @@ export default function Home() {
       </h1>
 
       <p className="mt-4 text-xl">
-        Software Engineer | Senior DevOps Engineer
+        Software Engineer | DevOps Engineer
       </p>
 
       <div className="flex gap-4 mt-8">
