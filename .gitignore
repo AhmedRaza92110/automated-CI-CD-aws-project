@@ -39,3 +39,19 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+node_modules/
+.next/
+out/
+.env
+.env.*
+!.env.example
+
+# Docker and local files
+*.log
+
+# Helm generated test output
+*.tmp
+
+# Kubernetes backup files
+old-deployment.yaml
+old-service.yaml
