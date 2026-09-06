@@ -1,0 +1,14 @@
+apiVersion: eksctl.io/v1alpha5
+kind: ClusterConfig
+
+metadata:
+  name: nextjs-devops-cluster
+  region: ap-south-1
+  version: "1.33"
+
+managedNodeGroups:
+  - name: nextjs-nodes
+    instanceType: t3.medium
+    desiredCapacity: 2
+    minSize: 1
+    maxSize: 3
