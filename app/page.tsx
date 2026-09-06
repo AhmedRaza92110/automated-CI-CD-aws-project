@@ -5,10 +5,10 @@ export default function Home() {
     <main className="min-h-screen flex flex-col items-center justify-center">
       <h1 className="text-6xl font-bold">
         Ahmed Raza
-      </h1>
+      </h1>22
 
       <p className="mt-4 text-xl">
-        Software Engineer | DevOps Engineer
+        Software Engineer | Senior DevOps Engineer
       </p>
 
       <div className="flex gap-4 mt-8">
