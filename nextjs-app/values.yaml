@@ -3,7 +3,7 @@ replicaCount: 2
 image:
   repository: ahmedrazadevops/nextjs-devops-app
   pullPolicy: IfNotPresent
-  tag: "c432d0c"
+  tag: "f0d02b5"
 
 imagePullSecrets: []
 nameOverride: ""
